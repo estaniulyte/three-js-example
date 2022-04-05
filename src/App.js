@@ -1,5 +1,9 @@
 import logo from './logo.svg';
+
+import { Canvas } from '@react-three/fiber';
+
 import './App.css';
+import Box from './components/Box';
 
 function App() {
   return (
@@ -17,6 +21,9 @@ function App() {
         >
           Learn React
         </a>
+        <Canvas>
+          <Box />
+        </Canvas>
       </header>
     </div>
   );
