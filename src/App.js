@@ -7,6 +7,8 @@ import './App.css';
 import Box from './components/Box';
 import Sphere from './components/AnimatedSphere';
 
+import WordsSphere from './components/WordsSphere';
+
 function App() {
   return (
     <div className="App">
@@ -35,6 +37,7 @@ function App() {
             <Sphere />
           </Suspense>
         </Canvas>
+        <WordsSphere />
       </header>
     </div>
   );
