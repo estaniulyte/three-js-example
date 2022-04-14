@@ -30,15 +30,15 @@ function Cloud({ count = 4, radius = 20 }) {
   // Create a count x count random words with spherical distribution
   const WordsArray = [
       [],
-      [" ", "", " ", "", "VueJS", "RCA", "Regressions", "Testing Document"],
-      ["", "C#", " ", "C++", " ", "QA", "Knowledge sharing", "Design"],
+      ["", "Ownership", "Coaching", "", "VueJS", "RCA", "Regressions", "Test Document"],
+      ["", "C#", " ", "C++", " ", "QA", "", "Design"],
       ["Agile", "Sprint", " ", "FogBugz", "Retrospective", "Planning", "iOS", "Pull Request"],
       ["Manual Testing", "TestRail", "Feedback", "Design Guidelines", "Performance", " ", " ", "Platforms"],
-      ["Unity", "", " ", "Bug Report", "", "Users First", "Android", "Test Plan"],
+      ["Unity", "", "Confluence", "Bug Report", "Customers", "Users First", "Android", "Test Plan"],
       ["Mobile", " ", "Feature testing", " ", "GIT", "Release", "Coverage", "Quality"],
       ["Documentation", "Web GL", " ", "Usability", "UI/UX", "", " ", "Test Cases"],
-      [" ", "JIRA", "Automation", " ", "JS", "", " ", " "],
-      ["Tooling", "", " ", "Product", "Testing projects", "Exploratory testing", " ", ""],
+      [" ", "JIRA", "Automation", " ", "JS", "", "", ""],
+      ["Tooling", "", " ", "Product", "Testing projects", "Exploratory testing", "", ""],
   ]
   const words = useMemo(() => {
     const temp = ['React', 'Array', "Cat"]
