@@ -37,7 +37,7 @@ function Cloud({ count = 4, radius = 20 }) {
       ["Unity", "", "Confluence", "Bug Report", "Customers", "Users First", "Android", "Test Plan"],
       ["Mobile", " ", "Feature testing", " ", "GIT", "Release", "Coverage", "Quality"],
       ["Documentation", "Web GL", " ", "Usability", "UI/UX", "", " ", "Test Cases"],
-      [" ", "JIRA", "Automation", " ", "JS", "", "", ""],
+      [" ", "JIRA", "Automation", " ", "JS", "", "Platform", ""],
       ["Tooling", "", " ", "Product", "Testing projects", "Exploratory testing", "", ""],
   ]
   const words = useMemo(() => {
